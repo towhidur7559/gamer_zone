@@ -1,0 +1,191 @@
+/* Phone view */
+@media only screen and (max-width:576px){
+    nav{
+        padding: 40px 20px;
+        flex-direction: column; 
+        box-shadow: none;
+
+    }
+    .nav-link ul{
+        flex-direction: column;
+    }
+    .nav-link li{
+        margin-top: 20px;
+    }
+    /* ========================== */
+    .top-banner-container{
+        background-image:none;
+        margin-bottom: 30px;
+    }
+    .top-banner, .top-banner2{
+        flex-direction: column-reverse;
+        margin: 0 20px;  
+    }
+    .top-banner-img{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .top-banner-container2{
+        background-color:white;
+        
+    }
+    .top-banner2 h3{
+        text-align: center;
+    }
+    .banner2-p2{
+        text-align: center;
+    }
+    .button2{
+        display: block;
+        margin: auto;
+    }
+    .top-banner2{
+        flex-direction: column;
+    }
+
+    main{
+        margin: 100px 20px;
+    }
+
+    .game-card-div{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 40px;
+    }
+    /* ================================= */
+    .section4{
+        flex-direction: column;
+        text-align: center;
+    }
+    .section4-2{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .section4-text{
+        width: 400px;
+        margin: 0 auto;
+    }
+    .section4-img-div{
+        width: 70%;
+        position: relative;
+    }
+    .main-img{
+        margin-top: 40px;
+    }
+    .sub-img{
+        transform: scale(0.4);
+        position: absolute;
+        top: 90px;
+        left:-150px;
+    
+    }
+    .sub-img2{
+        transform: scale(0.4);
+        position: absolute;
+        top: 75px;
+        right:-150px;
+    
+    }
+    /* ============================= */
+    .careers-part{
+        flex-direction: column;
+        padding: 30px 20px;
+        
+    }
+    .career-img{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .section6{
+        margin: 100px 20px;
+    
+    }
+    .s6-card img{
+        width: 30px;
+        margin-right: 10px;
+    }
+    footer{
+        padding: 100px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .footer-p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .footer-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+}
+
+/* Tablet view */
+@media only screen and (min-width:577px) and (max-width:992px){
+    nav{
+        padding:10px 20px;
+    }
+    /* ================================ */
+    .top-banner, .top-banner2{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 20px;
+        
+    }
+    .banner2-p2{
+        font-size: 1.3rem;
+    }
+    /* ============================== */
+    main{
+        margin: 100px 20px;
+    }
+    .game-card-div{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+
+    }
+    /* =================================== */
+    .section4-2{
+        text-align: right;
+    }
+    .sub-img{
+        transform: scale(0.4);
+        position: absolute;
+        top: 150px;
+        left:-150px;
+    
+    }
+    .sub-img2{
+        transform: scale(0.4);
+        position: absolute;
+        top: 105px;
+        right:-150px;
+    
+    }
+    .careers-part{
+        flex-direction: column;
+        padding: 30px 20px;
+        
+    }
+    .career-img{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .section6{
+        margin: 100px 20px;
+    
+    }
+    .s6-card img{
+        width: 40px;
+        margin-right: 10px;
+    }
+
+
+}
